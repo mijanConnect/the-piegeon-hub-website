@@ -1,12 +1,14 @@
-import PigeonContainer from '@/components/pigeon/PigeonContainer'
-import React from 'react'
+import PigeonContainer from "@/components/pigeon/PigeonContainer";
+import { Suspense } from "react";
 
 const LoftOverview = () => {
   return (
     <div>
-      <PigeonContainer />
+      <Suspense fallback={<div className="p-6">Loading Loft Overview...</div>}>
+        <PigeonContainer />
+      </Suspense>
     </div>
-  )
-}
+  );
+};
 
-export default LoftOverview
+export default LoftOverview;
