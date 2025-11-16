@@ -622,52 +622,52 @@ export const convertBackendToExistingFormat = (backendResponse, role) => {
       subject.fatherRingId?.fatherRingId?.fatherRingId,
       "father_3_1",
       { father: { x: 1140, y: -200 }, mother: { x: 1140, y: -70 } },
-      "Ancient",
+     
     
     );
     addGen4Node(
       subject.fatherRingId?.fatherRingId?.motherRingId,
       "mother_3_1",
       { father: { x: 1140, y: 60 }, mother: { x: 1140, y: 190 } },
-      "Storm",
+      
     
     );
     addGen4Node(
       subject.fatherRingId?.motherRingId?.fatherRingId,
       "father_3_2",
       { father: { x:1140, y: 320 }, mother: { x:1140, y: 450 } },
-      "Silver"
+      
     );
     addGen4Node(
       subject.fatherRingId?.motherRingId?.motherRingId,
       "mother_3_2",
       { father: { x:1140, y: 580 }, mother: { x:1140, y: 710 } },
-      "Purple"
+    
     );
     addGen4Node(
       subject.motherRingId?.fatherRingId?.fatherRingId,
       "father_3_3",
       { father: { x:1140, y: 850 }, mother: { x:1140, y: 980 } },
-      "Golden"
+      
     );
     addGen4Node(
       subject.motherRingId?.fatherRingId?.motherRingId,
       "mother_3_3",
       { father: { x:1140, y: 1110 }, mother: { x:1140, y: 1240 } },
-      "Ruby"
+   
     );
     addGen4Node(
       subject.motherRingId?.motherRingId?.fatherRingId,
       "father_3_4",
       { father: { x:1140, y: 1370 }, mother: { x:1140, y: 1500 } },
-      "Crimson",
+      
     
     );
     addGen4Node(
       subject.motherRingId?.motherRingId?.motherRingId,
       "mother_3_4",
       { father: { x:1140, y: 1630 }, mother: { x:1140, y: 1760 } },
-      "Scarlet",
+      
      
     );
   }
